@@ -24,6 +24,7 @@
     "@azure/ng-deploy": "^0.2.3",
     "@popperjs/core": "^2.11.5",
     "angular-cli-ghpages": "^1.0.0",
+    "autoprefixer": "10.4.5",
     "bootstrap": "^5.2.0-beta1",
     "bootstrap-icons": "^1.8.3",
     "bootstrap4-toggle": "^3.6.1",

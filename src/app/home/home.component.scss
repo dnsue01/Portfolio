@@ -1,7 +1,8 @@
 .card{
     border-radius: 25px;
-    height: 20em;
     margin-top: 1%;
+    height:20em;
+
 }
 .saludo{
     padding-top: 15%;
@@ -188,6 +189,22 @@ h2{
     text-align: center;
     font-family: Fredoka One,cursive;
 }
-.footer{
-    padding-top: 7%;
+
+@media (max-width:1426px) {
+.card{
+  height: fit-content;
+}
+.saludo{
+  padding-top: 3%;
+  font-family: Fredoka One,cursive;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+.centrar{
+  margin:auto;
+  display:block;
+}
 }
