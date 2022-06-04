@@ -12,12 +12,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarraLateralComponent,
-    PaginaPrincipalComponent
+    PaginaPrincipalComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
